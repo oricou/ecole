@@ -1,0 +1,19 @@
+
+Pour utiliser le fichier HTML qui s'appuie sur TiddlyWiki je vous conseille :
+
+  * de l'ouvrir avec l'URL file:///---  avec --- l'emplace de votre
+    fichier sur votre disque
+
+  * son greffon pour sauvegarder en écrasant le fichier :
+    https://addons.mozilla.org/en-us/firefox/addon/tiddlyfox/
+
+Lorsque vous prévoyez de faire des modifications, pensez à faire un 
+
+  git pull --rebase 
+  
+avant pour être certain d'avoir la dernière version et de pousser vos
+modifications :
+
+ git add ecole.html
+ git commit
+ git push
